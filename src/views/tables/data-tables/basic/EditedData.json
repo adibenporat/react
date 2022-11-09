@@ -1,0 +1,1050 @@
+[
+  {
+    "section_icon": 2,
+    "section_name": "מצב קיים",
+    "image":"",
+    "section_i": "נתוני חלקה מצב קיים",
+    "link1": {
+      "title": "קישור לנסח טאבו",
+      "href": [
+        {
+          "type": "static",
+          "text": "https://ecom.gov.il/voucherspa/input/440"
+        }
+      ]
+    },
+    "link2": {
+      "title": "קישור לתיקי בניין",
+      "href": [
+        {
+          "type": "static",
+          "text": "https://archive-binyan.tel-aviv.gov.il/pages/results.aspx?src=hp&GushTB="
+        },
+        {
+          "type": "dynamic",
+          "table": "israel_99_server1_514",
+          "field": "ms_gush"
+        },
+        {
+          "type": "static",
+          "text": "&HelkaTB="
+        },
+        {
+          "type": "dynamic",
+          "table": "israel_99_server1_514",
+          "field": "helka_num"
+        }
+      ]
+    },
+    "fields": [
+      {
+        "layer": "israel_99_server1_510",
+        "field": "k_rova",
+        "type": "value",
+        "field_type": "int",
+        "component": "card",
+        "visble": "",
+        "title": "רובע",
+        "lang_description_he": "מספר רובע",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_511",
+        "field": "shem_shchuna",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "שם שכונה",
+        "lang_description_he": "שם שכונה",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "ms_shetach_rashum",
+        "type": "value",
+        "field_type": "int",
+        "component": "card",
+        "append": "מ\"ר",
+        "visble": "",
+        "title": "שטח מגרש רשום",
+        "lang_description_he": "שטח מגרש רשום",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "ms_shetach",
+        "type": "value",
+        "append": "מ\"ר",
+        "component": "card",
+        "visble": "",
+        "field_type": "decimal2",
+        "title": "שטח גרפי מגרש",
+        "lang_description_he": "שטח גרפי לפי פוליגון החלקה",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_524",
+        "field": "ms_chelka",
+        "type": "value",
+        "field_type": "int",
+        "component": "card",
+        "visble": "",
+        "title": "מספר חלקה מקור",
+        "lang_description_he": "מספר חלקה מקור",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_524",
+        "field": "ms_shetach_rashum",
+        "field_type": "int",
+        "component": "card",
+        "type": "value",
+        "visble": "",
+        "title": "שטח חלקה מקור",
+        "lang_description_he": "שטח חלקה מקור",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "t_yeud_karka",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "ייעוד קרקע מפורט",
+        "lang_description_he": "ייעוד קרקע מפורט",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "t_yeud_rashi",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "ייעוד קרקע ראשי",
+        "lang_description_he": "ייעוד קרקע ראשי",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "st_taba_kavaa_yeud",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "תב\"ע על פי האתר העירוני",
+        "lang_description_he": "מספר תב\"ע קובעת ייעוד לפי האתר העירוני",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_515",
+        "field": "t_sug",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "סוג בעלות עירייה עפ\"י נתוני אתר הGIS העירוני",
+        "lang_description_he": "סוג בעלות עירייה עפ\"י נתוני אתר הGIS העירוני",
+        "source_info": "אתר GIS תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_671",
+        "field": "t_ezor",
+        "component": "card",
+        "type": "value",
+        "visble": "",
+        "title": "האם בתוך אזור ההכרזה",
+        "lang_description_he": "האם בתוך אזור ההכרזה",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_527",
+        "field": "fulladdress",
+        "component": "card",
+        "type": "value",
+        "visble": "",
+        "title": "כתובות משויכות",
+        "lang_description_he": "כתובות המשויכות לחלקה",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "buildings_per_helka",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "מספר מבנים בחלקה",
+        "lang_description_he": "מספר מבנים בחלקה",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "total_built_area",
+        "field_type": "decimal2",
+        "number_of_digits": "2",
+        "component": "card",
+        "type": "value",
+        "visble": "",
+        "title": "סך השטח הבנוי בחלקה (משוער)",
+        "lang_description_he": "סך השטח הבנוי בחלקה (משוער)",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "total_relative_area",
+        "field_type": "decimal2",
+        "number_of_digits": "2",
+        "component": "card",
+        "type": "value",
+        "append": "%",
+        "visble": "",
+        "title": "סך תכסית השטח הבנוי בחלקה (באחוזים)",
+        "lang_description_he": "סך תכסית השטח הבנוי בחלקה (באחוזים)",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "flood",
+        "component": "card",
+        "type": "value",
+        "visble": "",
+        "title": "האם החלקה נמצאת בשטח פשט הצפה",
+        "lang_description_he": "האם החלקה נמצאת בשטח פשט הצפה- נחל הירקון",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "preserve_tree_count",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "מספר עצים לשימור בחלקה",
+        "lang_description_he": "מספר עצים לשימור בחלקה",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "blueline_govmap",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "האם חלק מקו כחול של תכניות רכבת",
+        "lang_description_he": "האם חלק מקו כחול של תכניות רכבת",
+        "source_info": ""
+      },
+      {
+        "layer": "israel_99_agriparcels",
+        "field": "growthname",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "חלקה חקלאית",
+        "lang_description_he": "חלקה חקלאית",
+        "source_info": "govmap"
+      },
+      {
+        "layer": "israel_99_ownership",
+        "field": "ownershiptype",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "סוג בעלות בחלקות רשומות",
+        "lang_description_he": "סוג בעלות בחלקות רשומות",
+        "source_info": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "gis_link",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "field_type": "link",
+        "link_text": "אתר GIS עירוני",
+        "title": "קישור",
+        "lang_description_he": "קישור לאתר הGIS העירוני",
+        "source_info": "עיריית תל אביב"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "k_rova",
+        "type": "value",
+        "component": "card",
+        "field_type": "int",
+        "visble": "",
+        "title": "11111רובע",
+        "lang_description_he": "מספר רובע",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_511",
+        "field": "shem_shchuna",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "שם שכונה",
+        "lang_description_he": "שם שכונה",
+        "source_info": "",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "ms_shetach_rashum",
+        "type": "value",
+        "component": "card",
+        "field_type": "decimal2",
+        "number_of_digits": "3",
+        "append": "מ\"ר",
+        "visble": "",
+        "title": "שטח מגרש רשום",
+        "lang_description_he": "שטח מגרש רשום",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "ms_shetach",
+        "type": "value",
+        "component": "card",
+        "append": "מ\"ר",
+        "visble": "",
+        "field_type": "decimal2",
+        "number_of_digits": "2",
+        "title": "שטח גרפי מגרש",
+        "lang_description_he": "שטח גרפי לפי פוליגון החלקה",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "helka_num",
+        "type": "value",
+        "component": "card",
+        "field_type": "int",
+        "visble": "",
+        "title": "מספר חלקה מקור",
+        "lang_description_he": "מספר חלקה מקור",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "shetah_rashum",
+        "field_type": "int",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "שטח חלקה מקור",
+        "lang_description_he": "שטח חלקה מקור",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "t_yeud_karka",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "ייעוד קרקע מפורט",
+        "lang_description_he": "ייעוד קרקע מפורט",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "t_yeud_rashi",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "ייעוד קרקע ראשי",
+        "lang_description_he": "ייעוד קרקע ראשי",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "st_taba_kavaa_yeud",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "תב\"ע על פי האתר העירוני",
+        "lang_description_he": "מספר תב\"ע קובעת ייעוד לפי האתר העירוני",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "city_ownership",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "סוג בעלות עירייה",
+        "lang_description_he": "סוג בעלות עירייה",
+        "source_info": "אתר govmap",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "onesco_ref",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "האם בתוך אזור ההכרזה",
+        "lang_description_he": "האם בתוך אזור ההכרזה",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_513",
+        "field": "fulladdress",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "כתובות משויכות",
+        "lang_description_he": "כתובות המשויכות לחלקה",
+        "source_info": "עיריית תל אביב",
+        "fkey": "israel_99_server1_513.helka_ref_arr",
+        "pkey": "israel_99_server1_514.snap_id"
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "buildings_per_helka",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "מספר מבנים בחלקה",
+        "lang_description_he": "מספר מבנים בחלקה",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "total_built_area",
+        "field_type": "decimal2",
+        "number_of_digits": "2",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "סך השטח הבנוי בחלקה (משוער)",
+        "lang_description_he": "סך השטח הבנוי בחלקה (משוער)",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "total_relative_area",
+        "field_type": "decimal2",
+        "number_of_digits": "3",
+        "type": "value",
+        "component": "card",
+        "append": "%",
+        "visble": "",
+        "title": "סך תכסית השטח הבנוי בחלקה (באחוזים)",
+        "lang_description_he": "סך תכסית השטח הבנוי בחלקה (באחוזים)",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "flood",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "האם החלקה נמצאת בשטח פשט הצפה",
+        "lang_description_he": "האם החלקה נמצאת בשטח פשט הצפה- נחל הירקון",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "preservation_trees",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "מספר עצים לשימור בחלקה",
+        "lang_description_he": "מספר עצים לשימור בחלקה",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "blueline_govmap",
+        "type": "value",
+        "visble": "",
+        "title": "האם חלק מקו כחול של תכניות רכבת",
+        "lang_description_he": "האם חלק מקו כחול של תכניות רכבת",
+        "source_info": "",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "agriparcel_govmap",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "חלקה חקלאית",
+        "lang_description_he": "חלקה חקלאית",
+        "source_info": "",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "mithamim_govmap",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "מתחמים- מחיר מפוקח- מחיר למ\"ר",
+        "lang_description_he": "מתחמים- מחיר מפוקח",
+        "source_info": "",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "migrashim_govmap",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "מגרשים- מחיר מפוקח- מספר יח\"ד",
+        "lang_description_he": "מגרשים- מחיר מפוקח",
+        "source_info": "",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "rent_govmap",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "דיור להשכרה",
+        "lang_description_he": "דיור להשכרה",
+        "source_info": "",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "ownership_govmap",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "title": "סוג בעלות בחלקות רשומות",
+        "lang_description_he": "סוג בעלות בחלקות רשומות",
+        "source_info": "",
+        "fkey": "",
+        "pkey": ""
+      },
+      {
+        "layer": "israel_99_server1_514",
+        "field": "gis_link",
+        "type": "value",
+        "component": "card",
+        "visble": "",
+        "field_type": "link",
+        "link_text": "אתר GIS עירוני",
+        "title": "קישור",
+        "lang_description_he": "קישור לאתר הGIS העירוני",
+        "source_info": "עיריית תל אביב",
+        "fkey": "",
+        "pkey": ""
+      }
+    ]
+  },
+  {
+    "section_name": "מצב קיים",
+    "children": "yes",
+    "fields": [
+      {
+        "section_name": "מבנים",
+        "section_i": "נתוני המבנים הקיימים בחלקה לפי-אתר הרשות העירונית (אלא אם צוין אחרת)",
+        "link1": {
+          "title": "קישור לדף זכויות",
+          "href": [
+            {
+              "type": "static",
+              "text": "https://gisn.tel-aviv.gov.il/medamukdam/fr_asp/fr_meda_main.asp?gush="
+            },
+            {
+              "type": "dynamic",
+              "table": "israel_99_server1_514",
+              "field": "ms_gush"
+            },
+            {
+              "type": "static",
+              "text": "&helka="
+            },
+            {
+              "type": "dynamic",
+              "table": "israel_99_server1_514",
+              "field": "helka_num"
+            },
+            {
+              "type": "static",
+              "text": "&iriaMode=internet"
+            }
+          ]
+        },
+        "link2": {
+          "title": "קישור לתשריט בית משותף",
+          "href": [
+            {
+              "type": "static",
+              "text": "https://www.gov.il/he/service/common_house_files"
+            }
+          ]
+        },
+        "loop": 1,
+        "table_loop": "israel_99_server1_513",
+        "loop_click": 1,
+        "fields": [
+          {
+            "layer": "israel_99_server1_513",
+            "field": "fulladdress",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "title": "כתובת",
+            "lang_description_he": "כתובת מלאה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "t_sug_mivne",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "title": "סוג מבנה",
+            "lang_description_he": "סוג מבנה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "sug_govmap",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "title": "תיאור מבנה",
+            "lang_description_he": "סוג מבנה",
+            "source_info": "",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "green_building_govmap",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "title": "נבנה בבנייה ירוקה",
+            "lang_description_he": "סוג מבנה",
+            "source_info": "govMap",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "building_size",
+            "type": "value",
+            "component": "card",
+            "append": "מ\"ר",
+            "visble": "",
+            "field_type": "decimal2",
+            "number_of_digits": "2",
+            "title": "תכסית המבנה",
+            "lang_description_he": "שטח תכסית המבנה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "gova_simplex_2019",
+            "type": "value",
+            "component": "card",
+            "append": "מטר",
+            "visble": "",
+            "field_type": "decimal2",
+            "number_of_digits": "2",
+            "title": "גובה מבנה",
+            "lang_description_he": "גובה מבנה במטרים",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "built_area",
+            "type": "value",
+            "component": "card",
+            "append": "מ\"ר",
+            "visble": "",
+            "field_type": "decimal2",
+            "number_of_digits": "2",
+            "title": "שטח בנוי משוער",
+            "lang_description_he": "חושב מנתוני תכסית המבנה כפול מספר הקומות לפי נתוני עיריית תל אביב (במבנים בהם קומות עמודים חושבה קומה זו כחצי קומה) ",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "ms_komot",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "field_type": "int",
+            "title": "מספר קומות",
+            "lang_description_he": "מספר הקומות במבנה (לא כולל קומת עמודים)",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "t_amudim",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "title": "קומת עמודים",
+            "lang_description_he": "האם קיימת קומת עמודים",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "ms_komot_total",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "field_type": "int",
+            "title": "סה\"כ קומות",
+            "lang_description_he": "סך כל הקומות בבניין כולל קומות עמודים אם קיימת",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "misim_floors",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "field_type": "int",
+            "title": "מספר קומות לפי נתוני רשות המיסים",
+            "lang_description_he": "מספר קומות לפי נתוני רשות המיסים",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "year",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "title": "שנת בנייה על פי האתר העירוני",
+            "lang_description_he": "שנת בניית המבנה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "misim_year",
+            "type": "value",
+            "visble": "",
+            "field_type": "int",
+            "title": "שנת בנייה לפי נתוני רשות המיסים",
+            "lang_description_he": "שנת בנייה לפי נתוני רשות המיסים",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "layer": "israel_99_server1_513",
+            "field": "relative_area",
+            "type": "value",
+            "component": "card",
+            "visble": "",
+            "append": "%",
+            "field_type": "decimal2",
+            "number_of_digits": "2",
+            "title": "תכסית המבנה חלקי שטח החלקה באחוזים",
+            "lang_description_he": "תכסית המבנה חלקי שטח החלקה באחוזים",
+            "source_info": "עיריית תל אביב",
+            "fkey": "israel_99_server1_513.helka_ref",
+            "pkey": "israel_99_server1_514.snap_id"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section_icon": 3,
+    "section_name": "היתרים",
+    "image":"",
+    "section_i": "המידע המוצג הינו בהתאם לשכבת ההיתרים בשכבת המידע באתר העירוני. המידע כולל לרוב נתונים שנאספו החל משנת 2015",
+    "fields": [
+      {
+        "header": "היתרים בכתובת",
+        "type": "table",
+        "layer": "israel_99_server1_772",
+        "link": [
+          {
+            "type": "static",
+            "text": "https://www5.tel-aviv.gov.il/RishuyBniyaToshav/LicensingRequestPages/LicensingRequestFromGIS.aspx?licensingRequestId="
+          },
+          {
+            "type": "dynamic",
+            "table": "israel_99_server1_772",
+            "field": "request_num"
+          }
+        ],
+        "fields": [
+          {
+            "field": "request_num",
+            "visble": "yes",
+            "title": "מספר בקשה",
+            "lang_description_he": "מספר בקשה להיתר",
+            "source_info": "עיריית תל אביב",
+            "fkey": "1",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "permission_num",
+            "visble": "yes",
+            "title": "מספר אישור",
+            "lang_description_he": "מספר אישור להיתר",
+            "source_info": "עיריית תל אביב",
+            "fkey": "2",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "sivug_makor",
+            "visble": "yes",
+            "title": "סיווג מקור",
+            "lang_description_he": "סיווג מקור",
+            "source_info": "עיריית תל אביב",
+            "fkey": "3",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "sug_bakasha",
+            "visble": "yes",
+            "title": "סוג בקשה",
+            "lang_description_he": "סוג בקשה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "4",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "building_stage",
+            "visble": "yes",
+            "title": "סטטוס",
+            "lang_description_he": "פעילות רישוי אחרונה בבניין",
+            "source_info": "עיריית תל אביב",
+            "fkey": "5",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "open_request",
+            "visble": "yes",
+            "field_type": "date",
+            "default_sort": true,
+            "title": "תאריך פתיחת בקשה",
+            "lang_description_he": "תאריך פתיחת בקשה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "1210981217",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "permission_date",
+            "visble": "yes",
+            "field_type": "date",
+            "title": "תאריך אישור בקשה",
+            "lang_description_he": "תאריך אישור בקשה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "August 19, 1975 23:15:30",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "maslul_rishuy",
+            "visble": "yes",
+            "title": "מסלול רישוי",
+            "lang_description_he": "מסלול רישוי",
+            "source_info": "עיריית תל אביב",
+            "fkey": "8",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "sw_tama_38",
+            "visble": "yes",
+            "title": "תמ\"א 38",
+            "lang_description_he": "בניה לפי תמ\"א 38",
+            "source_info": "עיריית תל אביב",
+            "fkey": "10",
+            "pkey": "israel_99_server1_514.snap_id"
+          }
+        ]
+      },
+      {
+        "header": "היתרים באזור",
+        "type": "table",
+        "layer": "distance1",
+        "link": [
+          {
+            "type": "static",
+            "text": "https://www5.tel-aviv.gov.il/RishuyBniyaToshav/LicensingRequestPages/LicensingRequestFromGIS.aspx?licensingRequestId="
+          },
+          {
+            "type": "dynamic",
+            "table": "distance1",
+            "field": "request_num"
+          }
+        ],
+        "fields": [
+          {
+            "field": "distance_m",
+            "visble": "yes",
+            "default_sort": true,
+            "sort_type": "asc",
+            "field_type": "decimal2",
+            "expandable": "no", 
+            "number_of_digits": "2",
+            "title": "מרחק במטרים",
+            "lang_description_he": "מרחק במטרים",
+            "source_info": "עיריית תל אביב",
+            "fkey": "11",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "request_num",
+            "visble": "yes",
+            "title": "מספר בקשה",
+            "sort_type": "asc",
+            "expandable": "no", 
+            "lang_description_he": "מספר בקשה להיתר",
+            "source_info": "עיריית תל אביב",
+            "fkey": "12",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "permission_num",
+            "visble": "yes",
+            "title": "מספר אישור",
+            "expandable": "no", 
+            "lang_description_he": "מספר אישור להיתר",
+            "source_info": "עיריית תל אביב",
+            "fkey": "13",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "sivug_makor",
+            "visble": "yes",
+            "title": "סיווג מקור",
+            "expandable": "no", 
+            "lang_description_he": "סיווג מקור",
+            "source_info": "עיריית תל אביב",
+            "fkey": "14",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "sug_bakasha",
+            "visble": "yes",
+            "title": "סוג בקשה",
+            "expandable": "no", 
+            "lang_description_he": "israel_99_server1_772.tochen_bakasha",
+            "source_info": "עיריית תל אביב",
+            "fkey": "15",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "building_stage",
+            "visble": "yes",
+            "title": "סטטוס",
+            "expandable": "no", 
+            "lang_description_he": "פעילות רישוי אחרונה בבניין",
+            "source_info": "עיריית תל אביב",
+            "fkey": "16",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "open_request",
+            "visble": "yes",
+            "field_type": "date",
+            "expandable": "no", 
+            "default_sort": true,
+            "sort_type": "asc",
+            "title": "תאריך פתיחת בקשה",
+            "lang_description_he": "תאריך פתיחת בקשה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "2",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "permission_date",
+            "visble": "yes",
+            "expandable": "no", 
+            "field_type": "date",
+            "title": "תאריך אישור בקשה",
+            "lang_description_he": "תאריך אישור בקשה",
+            "source_info": "עיריית תל אביב",
+            "fkey": "8",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "maslul_rishuy",
+            "visble": "yes",
+            "title": "מסלול רישוי",
+            "expandable": "yes", 
+            "lang_description_he": "מסלול רישוי",
+            "source_info": "עיריית תל אביב",
+            "fkey": "מסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוימסלול רישוי",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "sw_tama_38",
+            "visble": "yes",
+            "expandable": "no", 
+            "title": "תמ\"א 38",
+            "lang_description_he": "בניה לפי תמ\"א 38",
+            "source_info": "עיריית תל אביב",
+            "fkey": "20",
+            "pkey": "israel_99_server1_514.snap_id"
+          },
+          {
+            "field": "addresses",
+            "visble": "yes",
+            "title": "כתובת",
+            "expandable": "no", 
+            "lang_description_he": "כתובת",
+            "source_info": "עיריית תל אביב",
+            "fkey": "21",
+            "pkey": "israel_99_server1_514.snap_id"
+          }
+        ]
+      }
+    ]
+  }
+]
